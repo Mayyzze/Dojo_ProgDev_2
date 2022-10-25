@@ -1,0 +1,8 @@
+chat
+bateau
+avion
+voiture
+manger
+carottes
+poulet
+riz

@@ -4,6 +4,7 @@ import * as fs from "fs";
 async function handler(_req: Request): Promise<Response> {
   try {
     //const wordToFind = "chien";
+    //Test
     var f = fs.readFileSync("liste-mots-alphabetique.txt", "utf8");
     var words_list = f.split("\n");
     const wordToFind = words_list[Math.floor(Math.random()*words_list.length)];
